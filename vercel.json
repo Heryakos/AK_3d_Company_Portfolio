@@ -1,4 +1,18 @@
 {
+  "headers": [
+    {
+      "source": "/(.*).glb",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "model/gltf-binary"
+        }
+      ]
+    }
+  ]
+}
+
+{
   "build": {
     "env": {
       "NODE_VERSION": "20"
