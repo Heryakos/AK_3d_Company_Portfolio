@@ -9,7 +9,7 @@ interface ContactServerSceneProps {
 }
 
 export default function ContactServerScene({ scale = 1, position = [0, 0, 0] }: ContactServerSceneProps) {
-  const { scene } = useGLTF("")
+  const { scene } = useGLTF("/Server/AK.glb")
   const groupRef = useRef<THREE.Group>(null)
 
   // Add gentle floating animation
