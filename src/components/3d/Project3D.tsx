@@ -3,10 +3,10 @@
 import { useGLTF } from "@react-three/drei"
 
 const modelPaths: Record<string, string> = {
-  cloud: "/Server/Tower_Server_color.glb",
-  server: "/Server/SingleServer.glb",
+  cloud: "",
+  server: "",
   database: "/Server/Storage_Server.glb",
-  security: "/Server/Server_with_rack.glb",
+  security: "",
   network: "/Server/Server.glb",
   infrastructure: "/Server/Tower Servers.glb"
 }
