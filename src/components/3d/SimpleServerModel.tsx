@@ -1,7 +1,7 @@
 "use client"
 
 import { useRef } from "react"
-import { useFrame } from "@react-three/drei"
+import { useFrame } from '@react-three/fiber';
 import type * as THREE from "three"
 
 interface SimpleServerModelProps {
