@@ -3,12 +3,12 @@
 import { useGLTF } from "@react-three/drei"
 
 const modelPaths: Record<string, string> = {
-  cloud: "/Server/Tower_Server_color.glb",
-  server: "/Server/SingleServer.glb",
-  database: "/Server/Storage_Server.glb",
-  security: "/Server/Server_with_rack.glb",
-  network: "/Server/Server.glb",
-  infrastructure: "/Server/Tower Servers.glb"
+  cloud: "public/Server/Tower_Server_color.glb",
+  server: "public/Server/SingleServer.glb",
+  database: "public/Server/Storage_Server.glb",
+  security: "public/Server/Server_with_rack.glb",
+  network: "public/Server/Server.glb",
+  infrastructure: "public/Server/Tower Servers.glb"
 }
 
 export default function Project3D({ model }: { model: string }) {
