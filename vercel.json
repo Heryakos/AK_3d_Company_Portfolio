@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/(.*)\\.glb",
+      "source": "/(.*)\\.gltf",
       "headers": [
         {
           "key": "Content-Type",

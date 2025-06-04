@@ -13,7 +13,7 @@ import ParticleBackground from "./3d/ParticleBackground"
 
 // Simple server scene component that only uses R3F hooks within Canvas
 function ServerRackScene({ mousePosition, isMobile }: { mousePosition: { x: number; y: number }; isMobile: boolean }) {
-  const { scene } = useGLTF("/Server/server_v2_console.glb")
+  const { scene } = useGLTF("/Server/server_v2_console.gltf")
 
   return (
     <group position={[0, -1, 0]} scale={isMobile ? 0.4 : 0.6}>
