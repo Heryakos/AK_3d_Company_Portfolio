@@ -1,27 +1,22 @@
 {
   "headers": [
     {
-      "source": "/(.*)\\.gltf",
+      "source": "/Server/(.*\\.gltf)",
       "headers": [
         {
           "key": "Content-Type",
-          "value": "model/gltf+json"
+          "value": "application/json"
         }
       ]
     },
     {
-      "source": "/(.*)\\.bin",
+      "source": "/Server/(.*\\.glb)",
       "headers": [
         {
           "key": "Content-Type",
-          "value": "application/octet-stream"
+          "value": "model/gltf-binary"
         }
       ]
     }
-  ],
-  "build": {
-    "env": {
-      "NODE_VERSION": "20"
-    }
-  }
+  ]
 }
