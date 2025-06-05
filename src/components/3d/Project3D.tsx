@@ -8,7 +8,7 @@ const modelPaths: Record<string, string> = {
   database: "/Server/Storage_Server.gltf",
   security: "/Server/Server_with_rack.gltf",
   network: "/Server/Server.gltf",
-  infrastructure: "/Server/Tower Servers.gltf"
+  infrastructure: "/Server/Tower_Servers.gltf"
 }
 
 export default function Project3D({ model }: { model: string }) {
